@@ -61,5 +61,5 @@ class Listener:
                 print("[-]Error while executing the command!!")        
 
 
-listener = Listener("192.168.0.106",5555)
+listener = Listener("server_ip",server_port)
 listener.run()
